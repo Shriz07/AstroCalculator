@@ -2,7 +2,7 @@
 
 `Java` `Android Studio`
 
-Simple Android application that displays Sun and Moon informations.
+Android application that displays Sun and Moon informations.
 
 ##                                                           Menu
 ![Alt text](Screenshots/menu.png "Menu")
