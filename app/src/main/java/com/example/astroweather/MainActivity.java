@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Button btnAstro = findViewById(R.id.btnApp);
         Button btnSettings = findViewById(R.id.btnSettings);
         Button btnExit = findViewById(R.id.btnExit);
+        Button btnWeather = findViewById(R.id.btnWeather);
+
+        btnWeather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, WeatherActivity.class));
+            }
+        });
 
         btnAstro.setOnClickListener(new View.OnClickListener() {
             @Override

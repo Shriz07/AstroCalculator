@@ -20,8 +20,8 @@
         app:layout_constraintVertical_bias="0.213" />
 
     <LinearLayout
-        android:layout_width="600dp"
-        android:layout_height="300dp"
+        android:layout_width="297dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,11 +30,20 @@
         app:layout_constraintVertical_bias="0.325">
 
         <Button
+            android:id="@+id/btnWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Weather"
+            android:textSize="36sp" />
+
+        <Button
             android:id="@+id/btnApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="App"
-            android:textSize="40sp" />
+            android:layout_marginTop="15dp"
+            android:text="Astro"
+            android:textSize="36sp" />
 
         <Button
             android:id="@+id/btnSettings"
@@ -42,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Settings"
-            android:textSize="40sp" />
+            android:textSize="36sp" />
 
         <Button
             android:id="@+id/btnExit"
@@ -50,7 +59,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Exit"
-            android:textSize="40sp" />
+            android:textSize="36sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

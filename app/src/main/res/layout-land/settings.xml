@@ -11,16 +11,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Settings"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-
         <View
             android:id="@+id/separator2"
             android:layout_width="match_parent"
@@ -38,10 +28,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
 
             <TextView
                 android:id="@+id/textView300"
@@ -55,7 +46,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="2"
                 android:gravity="center_vertical">
@@ -65,15 +56,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textSize="24sp" />
+                    android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.1"
-            android:orientation="vertical">
 
             <Switch
                 android:id="@+id/unitsSwitch"
@@ -102,9 +86,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:orientation="horizontal">
 
             <TextView
@@ -119,7 +103,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="2"
                 android:gravity="center_vertical">
@@ -128,16 +112,16 @@
                     android:id="@+id/tiRefresh"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="24sp" />
+                    android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:orientation="horizontal">
 
             <TextView
@@ -152,7 +136,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="2"
                 android:gravity="center_vertical">
@@ -162,15 +146,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textSize="24sp" />
+                    android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:orientation="horizontal">
 
             <TextView
@@ -185,7 +169,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="2"
                 android:gravity="center_vertical">
@@ -195,7 +179,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textSize="24sp" />
+                    android:textSize="20sp" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
 
